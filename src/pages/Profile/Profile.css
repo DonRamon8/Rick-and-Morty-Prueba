@@ -1,0 +1,71 @@
+.Profile {
+  background-color: #21224C;
+  color: #fff;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  padding: 20px; /* Asegura que haya un poco de espacio alrededor */
+}
+
+.Profile .card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+  max-width: 300px;
+  width: 100%;
+}
+
+.Profile .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.Profile .card-img-top {
+  width: 100%;
+  height: auto;
+  max-height: 200px; 
+}
+
+.Profile .card-body {
+  background-color: #fff;
+  color: #333;
+  text-align: left;
+}
+
+.Profile .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.Profile .card-text {
+  font-size: 1rem;
+}
+
+.Profile .btn-primary {
+  margin-top: 15px;
+  border-radius: 20px;
+  background-color: #007bff;
+  border: none;
+}
+
+.Profile .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.Locations, .Episodes {
+  margin-top: 20px;
+}
+
+.Locations ul, .Episodes ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Locations li, .Episodes li {
+  margin: 5px 0;
+  color: #333;
+}

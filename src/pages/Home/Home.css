@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rick+and+Morty:wght@400;700&display=swap');
+
+.Home {
+  text-align: center; 
+  font-family: 'Rick and Morty', sans-serif; 
+  background-color: #21224C; 
+  color: white; 
+  overflow-x: hidden; 
+  padding: 20px;
+}
+
+.top-bar {
+  margin-bottom: 20px; 
+}
+
+.selected-character p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}

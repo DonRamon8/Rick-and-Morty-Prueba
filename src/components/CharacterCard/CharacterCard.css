@@ -1,0 +1,30 @@
+.Character-Card {
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+}
+
+.Character-Card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+.Character-Card img {
+  border-bottom: 1px solid #ddd;
+}
+
+.Character-Card .card-body {
+  background-color: #f9f9f9;
+  text-align: left; 
+}
+
+.Character-Card .status {
+  font-weight: bold;
+}
+
+.Character-Card .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}

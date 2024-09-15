@@ -1,0 +1,11 @@
+.Filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.Filter button {
+  border-radius: 20px;
+}
